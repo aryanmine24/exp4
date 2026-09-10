@@ -7,7 +7,8 @@ Python 3.14.5
 pip install numpy pandas matplotlib flask
 (.venv) PS D:\exp4> pip list
 
- 
+ pip freeze > requirements.txt
+
 (.venv) PS D:\exp4> deactivate 
 PS D:\exp4> python -m venv .venv2 && source .venv2/bin/activate
 
