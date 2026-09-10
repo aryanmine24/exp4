@@ -1,0 +1,21 @@
+PS D:\exp4> python -m venv .venv
+PS D:\exp4> .venv\scripts\Activate
+(.venv) PS D:\exp4> .venv\scripts\Activate.ps1
+(.venv) PS D:\exp4> python --version
+Python 3.14.5
+(.venv) PS D:\exp4> pip list
+
+(.venv) PS D:\exp4> pip list
+
+ 
+(.venv) PS D:\exp4> deactivate 
+PS D:\exp4> python -m venv .venv2 && source .venv2/bin/activate
+
+PS D:\exp4> python -m venv .venv2                              
+PS D:\exp4> .venv2\scripts\Activate.ps1                        
+(.venv2) PS D:\exp4> pip install -r requirements.txt
+
+(.venv2) PS D:\exp4> -r requirements.txt
+-r : The term '-r' is not recognized as the 
+
+pip list --outdated
