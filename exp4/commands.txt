@@ -4,7 +4,7 @@ PS D:\exp4> .venv\scripts\Activate
 (.venv) PS D:\exp4> python --version
 Python 3.14.5
 (.venv) PS D:\exp4> pip list
-
+pip install numpy pandas matplotlib flask
 (.venv) PS D:\exp4> pip list
 
  
